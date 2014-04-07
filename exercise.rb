@@ -92,14 +92,13 @@ words = break_words(sentence)
 sorted_words = sort_words(words)
 
 puts sentence
+# puts "First word: #{puts_first_word(words)}"
+# puts "Last word: #{puts_last_word(words)}"
+# puts "First word (after sort): #{puts_first_word(sorted_words)}"
+# puts "Last word (after sort): #{puts_last_word(sorted_words)}"
 
-# puts_first_word(words)
-# puts_last_word(words)
-# puts_first_word(sorted_words)
-# puts_last_word(sorted_words)
 # sorted_words = sort_sentence(sentence)
-# print sorted_words
-
-# puts_first_and_last(sentence)
+# puts "Sorted words: #{sorted_words}"
+# puts "First_and_last: puts_first_and_last(sentence)
 
 # puts_first_and_last_sorted(sentence)
