@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 # This function will break up words for us.
 def break_words(stuff)
     words = stuff.split(' ')
@@ -6,18 +8,18 @@ end
 
 # Sorts the words.
 def sort_words(words)
-    return sorted(words)
+    return words.sort
 end
 
-# Prints the first word after popping it off.
+# Prints the first word after removing it from the array.
 def puts_first_word(words)
-    word = words.poop(0)
+    word = words.shift
     puts word
 end
 
 # Prints the last word after popping it off.
 def puts_last_word(words)
-    word = words.pop(-1
+    word = words.pop(-1)
     puts word
 end
 
